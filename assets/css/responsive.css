@@ -1,0 +1,69 @@
+@media (max-width: 748px) {
+    #header {
+        display: block;
+        overflow: hidden;
+    }
+
+    .header__search-btn {
+        display: none;
+    }
+
+    .header__menu-btn {
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: block;
+        padding: 14px 24px;
+    }
+
+    .nav-bar__item:first-child {
+        display: inline-block;
+    }
+
+    .nav-bar,
+    .nav-bar__item,
+    .nav-bar__item>a {
+        display: block;
+        text-align: left;
+    }
+
+    .sub-nav {
+        position: initial;
+    }
+
+    .sub-nav__item {
+        background-color: #000;
+        opacity: 0.8;
+        padding: 12px 0px 12px 32px;
+        color: #fff;
+    }
+
+    .band__member-list {
+        flex-direction: column;
+    }
+
+    .tickets-list {
+        flex-direction: column;
+    }
+
+    .ticket-info__buy-ticket {
+        width: 100%;
+    }
+
+    .contact__content {
+        flex-direction: column;
+    }
+
+    .contact-respond__user {
+        margin-top: 8px;
+        flex-direction: column;
+    }
+
+    .contact-respond__user__info {
+        margin-top: 8px;
+    }
+
+    .contact-respond__send-button {
+        width: 100%;
+    }
+}

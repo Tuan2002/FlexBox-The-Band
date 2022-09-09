@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+</head>
+
+<body>
+    <div id="app">
+        <div id="header">
+            <ul class="nav-bar">
+                <li class="nav-bar__item"><a class="color-white" href="#sliders">Home</a></li>
+                <li class="nav-bar__item"><a class="color-white" href="#band-phase">Band</a></li>
+                <li class="nav-bar__item"><a class="color-white" href="#tour-phase">Tour</a></li>
+                <li class="nav-bar__item"><a class="color-white" href="#contact-phase">Contact</a></li>
+                <li class="nav-bar__item nav-bar--more"><a class="color-white" href="#">More
+                        <i class="more-btn fa fa-caret-down"></i></a>
+                    <ul class="sub-nav">
+                        <li class="sub-nav__item"><span style="cursor: pointer;">Merchandise</span></li>
+                        <li class="sub-nav__item"><span style="cursor: pointer;">Extras</span></li>
+                        <li class="sub-nav__item"><span style="cursor: pointer;">Media</span></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="header__search-btn color-white">
+                <i class="search-icon fa fa-search"></i>
+            </div>
+            <div onclick="showMenu()" class="header__menu-btn color-white">
+                <i class="menu-icon fa fa-bars"></i>
+            </div>
+        </div>
+        <div id="sliders">
+            <div class="slider">
+                <img class="slider__image" src="./assets/image/slider1.jpeg" alt="Chicago">
+                <div class="slider__content">
+                    <h3 class="slider__content__title color-white">
+                        Chicago
+                    </h3>
+                    <p class="slider__content__text color-white">
+                        Thank you, Chicago - A night we won't forget.
+                    </p>
+                </div>
+            </div>
+            <div class="slider">
+                <img class="slider__image" src="./assets/image/slider0.jpeg" alt="Chicago">
+                <div class="slider__content">
+                    <h3 class="slider__content__title color-white">
+                        New York
+                    </h3>
+                    <p class="slider__content__text color-white">
+                        The atmosphere in New York is lorem ipsum
+                    </p>
+                </div>
+            </div>
+            <div class="slider">
+                <img class="slider__image" src="./assets/image/slider2.jpeg" alt="Chicago">
+                <div class="slider__content">
+                    <h3 class="slider__content__title color-white">
+                        Los Angeles
+                    </h3>
+                    <p class="slider__content__text color-white">
+                        We had the best time playing at Venice Beach!
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="contents">
+            <div id="band-phase">
+                <div class="band max-width">
+                    <div class="content-desc">
+                        <h2 class="content-desc__title color-black">
+                            THE BAND
+                        </h2>
+                        <i class="content-desc__text color-black low-opacity">
+                            We love music
+                        </i>
+                    </div>
+                    <p class="band__decs">
+                        We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis
+                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                        irure
+                        dolor
+                        in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                        sint
+                        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                        laborum
+                        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua.
+                        Ut
+                        enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                        commodo
+                        consequat.
+                    </p>
+                    <div class="band__member-list">
+                        <div class="member-info">
+                            <h3 class="member-info__name">
+                                Name
+                            </h3>
+                            <img src="./assets/image/account.jpeg" alt="" class="member-info__image">
+                        </div>
+                        <div class="member-info">
+                            <h3 class="member-info__name">
+                                Name
+                            </h3>
+                            <img src="./assets/image/account.jpeg" alt="" class="member-info__image">
+                        </div>
+                        <div class="member-info">
+                            <h3 class="member-info__name">
+                                Name
+                            </h3>
+                            <img src="./assets/image/account.jpeg" alt="" class="member-info__image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="tour-phase">
+                <div class="tour max-width">
+                    <div class="content-desc">
+                        <h2 class="content-desc__title color-white">
+                            TOUR DATES
+                        </h2>
+                        <i class="content-desc__text color-white low-opacity">
+                            Remember to book your tickets!
+                        </i>
+                    </div>
+                    <ul class="ticket-status">
+                        <li class="color-black">
+                            September
+                            <span class="ticket-status--sold-out">
+                                Sold out
+                            </span>
+                        </li>
+                        <li class="color-black">
+                            October
+                            <span class="ticket-status--sold-out">
+                                Sold out
+                            </span>
+                        </li>
+                        <li class="color-black">
+                            November
+                            <span class="ticket-status--available">
+                                3
+                            </span>
+                        </li>
+                    </ul>
+                    <div class="tickets-list">
+                        <div class="tickets-list__item">
+                            <img class="tickets-list__item__image" src="assets/image/newyork.jpeg" alt="">
+                            <div class="ticket-info">
+                                <h4 class="ticket-info__place">
+                                    New York
+                                </h4>
+                                <p class="ticket-info__date low-opacity">
+                                    Fri 27 Nov 2016
+                                </p>
+                                <p class="ticket-info__desc">
+                                    Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                                </p>
+                                <button class="ticket-info__buy-ticket color-white">
+                                    Buy Tickets
+                                </button>
+                            </div>
+                        </div>
+                        <div class="tickets-list__item">
+                            <img class="tickets-list__item__image" src="assets/image/paris.jpeg" alt="">
+                            <div class="ticket-info">
+                                <h4 class="ticket-info__place">
+                                    Paris
+                                </h4>
+                                <p class="ticket-info__date low-opacity">
+                                    Sat 28 Nov 2016
+                                </p>
+                                <p class="ticket-info__desc">
+                                    Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                                </p>
+                                <button class="ticket-info__buy-ticket color-white">
+                                    Buy Tickets
+                                </button>
+                            </div>
+                        </div>
+                        <div class="tickets-list__item">
+                            <img class="tickets-list__item__image" src="assets/image/sanfran.jpeg" alt="">
+                            <div class="ticket-info">
+                                <h4 class="ticket-info__place">
+                                    San Francisco
+                                </h4>
+                                <p class="ticket-info__date low-opacity">
+                                    Sun 29 Nov 2016
+                                </p>
+                                <p class="ticket-info__desc">
+                                    Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                                </p>
+                                <button class="ticket-info__buy-ticket color-white">
+                                    Buy Tickets
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="contact-phase">
+                <div class="contact max-width">
+                    <div class="content-desc">
+                        <h2 class="content-desc__title color-black">
+                            CONTACT
+                        </h2>
+                        <i class="content-desc__text color-black low-opacity">
+                            Fan? Drop a note!
+                        </i>
+                    </div>
+                    <div class="contact__content">
+                        <div class="contact-info">
+                            <span>
+                                <i class="fa fa-map-marker"></i>
+                                Chicago, US
+                            </span>
+                            <span>
+                                <i class="fa fa-phone"></i>
+                                Phone: +00 151515
+                            </span>
+                            <span>
+                                <i class="fa fa-envelope"></i>
+                                Email: mail@mail.com
+                            </span>
+                        </div>
+                        <form action="#" class="contact-respond">
+                            <div class="contact-respond__user">
+                                <input type="text" placeholder="Name" required
+                                    class="contact-respond__user__info input-border">
+                                <input type="text" placeholder="Email" required
+                                    class="contact-respond__user__info input-border">
+                            </div>
+                            <input type="text" placeholder="Message" required
+                                class="contact-respond__message input-border">
+                            <button class="contact-respond__send-button color-white">
+                                SEND
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div id="map-phase">
+                <img src="assets/image/map.jpeg" class="map-image" alt="">
+            </div>
+        </div>
+        <div id="footer">
+            <div class="social-network color-black low-opacity">
+                <i class="social-icon fa fa-facebook-official"></i>
+                <i class="social-icon fa fa-instagram"></i>
+                <i class="social-icon fa fa-snapchat"></i>
+                <i class="social-icon fa fa-pinterest-p"></i>
+                <i class="social-icon fa fa-twitter"></i>
+                <i class="social-icon fa fa-linkedin"></i>
+            </div>
+            <span class="copyright color-black low-opacity">
+                Powered by <a class="color-black" href="https://www.facebook.com/Tuandeveloper02">Tuan
+                    Nguyen</a>
+            </span>
+        </div>
+    </div>
+    <div class="modal">
+        <div class="buy-container">
+            <button class="close-btn js-close">
+                <i>×</i>
+            </button>
+            <div class="buy-header">
+                <h2 class="buy-title">
+                    <i class="fa fa-suitcase"></i>
+                    Tickets
+                </h2>
+            </div>
+            <div class="input-form">
+                <div class="order-desc">
+                    <p class="lable-content">
+                        <i class="fa fa-shopping-cart"></i>
+                        Tickets, $15 per person
+                    </p>
+                    <input type="text" placeholder="How many?">
+                    <p class="lable-content">
+                        <i class="fa fa fa-user"></i>
+                        Send To
+                    </p>
+                    <input type="text" placeholder="Enter email">
+                </div>
+                <button class="pay-btn">
+                    PAY
+                    <i class="fa fa-check"></i>
+                </button>
+                <div class="footer-form">
+                    <button class="cancle js-close">
+                        Close
+                        <i class="fa fa-close"></i>
+                    </button>
+                    <p>
+                        Need
+                        <a href="#">help?</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/index.js">
+    </script>
+</body>
+
+</html>
